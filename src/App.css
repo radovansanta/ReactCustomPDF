@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#characterImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+#characterImage {
+  position: relative; /* Umiestnenie obrázkov vzhľadom k ich rodičovskému prvku */
+}
+
+.hairImage {
+  position: absolute; /* Absolútne umiestnenie obrázka vlasov */
+  top: 0; /* Umiestnenie hore */
+  left: 64px; /* Umiestnenie vľavo */
+  display: none; /* Skrytie obrázka východzích vlasov */
+}
